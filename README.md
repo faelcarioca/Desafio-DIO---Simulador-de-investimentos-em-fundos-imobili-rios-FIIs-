@@ -1,2 +1,2 @@
-# Desafio-DIO---Simulador-de-investimentos-em-fundos-imobili-rios-FIIs-
+# Desafio-DIO: Simulador de investimentos em fundos imobiliários (FIIs)
 Simulador de investimentos em fundos imobiliários (FIIs) feito em planilha de cálculos compatível com Excel e softwares do gênero. Projeto desafio do bootcamp DIO - Reclame AQUI: Dados e IA na Prática. Diferente do projeto original (do mentor Felipe Aguiar), este foi desenvolvido no Google Sheets minimizando incompatibilidades.

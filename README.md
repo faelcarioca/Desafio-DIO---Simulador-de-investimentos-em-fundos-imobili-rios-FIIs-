@@ -17,4 +17,4 @@ Salário=SALARIO; Rendimento da Carteira=REDIM; Sugestão de Investimento=INVEST
 Planilha SUPORTE, coluna D
 
 - ### Mudanças em relação à ferramenta do Expert (original Felipe Aguiar)
-- Feito no Google Sheets e salvo no formato Excel 2007, minimizando incompatibilidades. Cores, logo, valores, intervalos nomeados, formatação, disposição do gráfico, nome de algumas referências, otimizações de fórmulas e limpezas mínimas e outras modificações menores.
+Feito no Google Sheets e salvo no formato Excel 2007, minimizando incompatibilidades. Cores, logo, valores, intervalos nomeados, formatação, disposição do gráfico, nome de algumas referências, otimizações de fórmulas e limpezas mínimas e outras modificações menores.

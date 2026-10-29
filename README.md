@@ -3,13 +3,18 @@ Simulador de investimentos em fundos imobiliários (FIIs) feito em planilha de c
 
 ## OBS: EDITADO NO GOOGLE SHEETS E SALVO NO FORMATO EXCEL 2007. NO GOOGLE SHEETS O FORMATO .XLSX IMPOSSIBILITA O TRAVAMENTO DAS CÉLULAS PARA EDIÇÃO. AINDA É POSSÍVEL FAZER O TRAVAMENTO NO FORMATO .ODS, MAS QUE, POR SER OUTRO PADRÃO, PODE ALTERA DETALHES DA FORMATAÇÃO E PERDE A FUNÇÃO DE TRAVAMENTO NO USO COM OUTROS SOFTWARES DO MESMO GÊNERO.
 
-- A ferramenta retorna ao usuário uma resposta rápida ao patrimônio acumulado em 5 anos (L13) e aos dividendos (L14) a partir do input de dados solicitados, além de pré calcular o patrimônio acumulado de outros períodos (2, 5, 10, 20 e 30 de L17 a L21)
+- #### Perguntas que a ferramenta responde, e onde aparece cada resposta
+A planilha retorna ao usuário uma resposta rápida ao patrimônio acumulado em 5 anos (L13) e aos dividendos (L14) a partir do input de dados solicitados, além de pré calcular o patrimônio acumulado de outros períodos (2, 5, 10, 20 e 30 de L17 a L21)
     
-- VF é a função de cálculo para valor futuro. Ela considera a taxa de juros, o período de recorrência de pagamentos e o valor pago. A periodicidade da taxa precisa parear com a periodicidade do investimento sendo convertido os anos em meses. O retorno por padrão é negativo e também precisa ser convertido ("-" antes da referência) para retornar positivo.
+- ### Como o VF e o PROCV entram nos cálculos
+VF é a função de cálculo para valor futuro. Ela considera a taxa de juros, o período de recorrência de pagamentos e o valor pago. A periodicidade da taxa precisa parear com a periodicidade do investimento sendo convertido os anos em meses. O retorno por padrão é negativo e também precisa ser convertido ("-" antes da referência) para retornar positivo.
 PROCV procura um valor na primeira coluna de um intervalo de tabela e retornando o valor da mesma linha na coluna especificada da mesma tabela (valor exato no caso o desafio). No desafio ele procura um valor combinado de perfil+tipo de FII no intervalo de colunas A:D da planilha SUPORTE, retornando o valor de porcentagem do investimento sugerido do perfil.
 
-- Salário=SALARIO; Rendimento da Carteira=REDIM; Sugestão de Investimento=INVEST; Quanto investir mensalmente=APORTE; Período em anos=PERI_ANO; Taxa de rendimento mensal=TAX_MES; Patrimônio acumulado=PATRIMN
+- ### Intervalos nomeados criados
+Salário=SALARIO; Rendimento da Carteira=REDIM; Sugestão de Investimento=INVEST; Quanto investir mensalmente=APORTE; Período em anos=PERI_ANO; Taxa de rendimento mensal=TAX_MES; Patrimônio acumulado=PATRIMN
 
-- Planilha SUPORTE, coluna D
+- ### Percentuais de cada perfil, e origem
+Planilha SUPORTE, coluna D
 
-- Cores, logo, valores, intervalos nomeados, formatação, disposição do gráfico, nome de algumas referências e outras coisas menores.
+- ### Mudanças em relação à ferramenta do Expert (original Felipe Aguiar)
+- Feito no Google Sheets e salvo no formato Excel 2007, minimizando incompatibilidades. Cores, logo, valores, intervalos nomeados, formatação, disposição do gráfico, nome de algumas referências, otimizações de fórmulas e limpezas mínimas e outras modificações menores.
